@@ -61,7 +61,7 @@
             </a>
             <div class="navbar-nav me-auto py-0">
                 <a href="{{url('/products')}}" class="nav-item nav-link {{request()->is('products') ? 'active' : ''}}">Products</a>
-                <a href="{{url('/services')}}" class="nav-item nav-link {{request()->is('services') ? 'active' : ''}}">Service</a>
+                <a href="{{url('/services')}}" class="nav-item nav-link {{request()->is('services') ? 'active' : ''}}">Services</a>
                 <a href="{{url('/contact')}}" class="nav-item nav-link {{request()->is('contact') ? 'active' : ''}}">Contact</a>
             </div>
         </div>
