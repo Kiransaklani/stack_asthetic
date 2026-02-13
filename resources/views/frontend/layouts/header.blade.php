@@ -53,7 +53,7 @@
         </button>
         <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="{{url('/')}}" class="nav-item nav-link {{request()->is('/') ? 'active' : ''}}">Home</a>
+                <a href="{{url('/')}}" class="nav-item nav-link {{request()->is('/') ? 'active' : ''}}">Homely test</a>
                 <a href="{{url('/about')}}" class="nav-item nav-link {{request()->is('about') ? 'active' : ''}}">About</a>
             </div>
             <a href="{{url('/')}}" class="navbar-brand bg-secondary py-1 px-4 mx-3 d-none d-lg-block d-flex align-items-center justify-content-center" style="min-height: auto;">
